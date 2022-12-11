@@ -1,0 +1,120 @@
+body {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    background-color: indianred;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    font-family: sans-serif;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0;
+    background-color: indianred;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button {
+    margin: 10px 0;
+    color: midnightblue;
+    background-color: white;
+    border-radius: 5px;
+    border: solid darkslategrey;
+    width: 60px;
+    height: 25px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
+    background: indianred;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px indianred;
+    box-shadow: 
+    0 0 2px 3px white;
+    color: white;
+    border-color: black;
+    transform: scale(1.05);
+}
+
+.button:focus{
+    background: indianred;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px indianred;
+    box-shadow: 
+    0 0 2px 3px white;
+    color: white;
+    border-color: black;
+    transform: scale(1.05);
+}
+
+
+
+.container {
+    background-color: white;
+    border: solid indianred;
+    border-width: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.container > div {
+    margin: 0;
+    padding: 0;
+}
+
+#slidercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    -webkit-apperance: none;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 0px;    
+
+}

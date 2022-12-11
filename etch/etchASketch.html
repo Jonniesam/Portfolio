@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel = "stylesheet" href="/etch/styles.css">
+    
+</head>
+<body>
+    <div id="header" class = "header">
+        <h2>Etch-A-Sketch</h2>
+    </div>
+    <div id="main" class = "main">
+        <div id = "buttons">
+            <div id="slidercontainer">
+            <input type="range" min="16" max="64" value="1" id="myRange" class="slider">
+            <p>Grid Size:<span id="value"></span></p>
+        </div>
+            <button id="rgb" class="button">RGB</button>
+            <button id="normal" class="button">Classic</button>
+            <button id="clear" class="button">Clear</button>
+        </div>
+        <div id="container" class = "container"></div>
+    </div>
+    <script src = "/etch/eas.js"></script> 
+</body>
+</html>
