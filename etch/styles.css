@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'retroFont';
+    src: url(/fonts/good-times-rg.otf);
+}
+
 body {
     min-height: 95vh;
     display: flex;
@@ -5,7 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: retroFont;
+    background-image: url(/images/easBackground.png);
+    background-position: center;
 }
 
 .header {
@@ -14,7 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 600px;
-    font-family: sans-serif;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -68,8 +74,7 @@ body {
     background: indianred;
     cursor: pointer;
     text-shadow: 2px 2px 5px indianred;
-    box-shadow: 
-    0 0 2px 3px white;
+    box-shadow: 0 0 2px 3px white;
     color: white;
     border-color: black;
     transform: scale(1.05);
@@ -80,7 +85,7 @@ body {
 .container {
     background-color: white;
     border: solid indianred;
-    border-width: 50px;
+    border-width: 20px 50px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -113,7 +118,7 @@ body {
 
 p {
     color: white;
-    font-family: sans-serif;
+    font-family: retroFont;
     font-weight: 500;
     margin-top: 0px;    
 

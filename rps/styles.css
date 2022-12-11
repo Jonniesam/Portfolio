@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     background-color: lightblue;
     background-image: url(/images/arena.png);
+    background-position: center;
     font-family: retroFont;
     color: white;
 }
